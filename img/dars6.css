@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.link{
+    text-decoration: none;
+
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.logo img{
+    width: 22px;
+}
+nav{
+    z-index: 4;
+    width: 100%;
+    height: 55px;
+    background-color: #000000cb;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);  /*  jibr jibr  */
+}
+.nav_container{
+    width: 70%;
+   
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.collection_item a{
+    text-decoration: none;
+    color: #d6d6d6;
+    font-size: 14px;
+}
+.collection_item a img{
+    width: 18px;
+}
+.nav_bottom{
+    width: 100%;
+    height: 55px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_bottom p{
+    font-size: 16px;
+}
+
+.nav_bottom p a{
+    color: #006fdd;
+}
+
+
+
+
+
+
+.banner{
+    height: 600px;
+    width: 100%;
+    background:url(https://www.apple.com/v/home/ag/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 60px;
+    
+
+}
+.banner_title{
+    font-size: 65px;
+    font-weight: 600;
+}
+.banner_desc{
+    font-size: 35px;
+    font-weight: 300;
+    padding: 14px 0;
+}
+.banner_link{
+    color: #006fdd;
+    display: inline-block;
+    margin: 0 18px;
+    font-size: 23px;
+    text-decoration: none;
+
+}
+.banner_links a{
+    font-size: 25px;
+
+    
+}
+.banner_link:hover span{
+    text-decoration: underline;
+}
+
+
+
+.iphone13{
+    margin-top: 10px;
+    background: url(https://www.apple.com/v/home/ag/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_large.jpg ) no-repeat center/cover;
+
+}
+.iphone13 .banner_desc{
+    color: rgb(240, 186, 176);
+}
+
+.iphone13 .banner_title{
+    color: white;
+}
+
+.macbook{
+    background: url(https://www.apple.com/v/home/ag/images/heroes/macbook-pro/hero_macbookpro__eatonjfwvuc2_large.jpg)no-repeat center/cover;
+}
+
+
+
+.product_links>a{
+    font-size: 20px;
+}
+.products{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.products_item{
+    height: 650px;
+}
+.airpods{
+    width: 49.5%;
+    height: 650px;
+    background: url(https://www.apple.com/v/home/ag/images/promos/airpods/tile_airpods__fuv6vgn42y2q_large.jpg) no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+   
+}
+.airpods>h2{
+    padding-top:460px;
+    
+}
+.product_title{
+    font-size: 50px;
+    padding-top: 60px;
+}
+.product_desc{
+    font-size: 25px;
+    line-height: 2;
+    color: rgb(65, 60, 60);
+}
+.watch{
+    margin-top: 15px;
+    margin-left: 1%;
+    height: 650px;
+    width: 49.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background:url(https://www.apple.com/v/home/ag/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large.jpg)no-repeat center/cover;
+}
+.product_titlee{
+    font-size: 50px;
+}
+.product_titlee>img{
+    width: 40px;
+    
+}
+.p_new{
+    padding-top: 40px;
+    padding-bottom: 15px;
+   color: rgb(207, 5, 5); 
+}
+.series{
+    padding-top: 10px;
+    font-size: 25px;
+    color: rgb(189, 3, 3);
+}
+.homepad{
+    background: url(https://www.apple.com/v/home/ag/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large.jpg)no-repeat center/cover;
+    margin-top: 15px;
+    height: 650px;
+    width: 49.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ipad{
+    height: 650px;
+    width: 49.5%;
+    margin-left: 1%;
+    position: relative;
+    margin-top: 15px;
+    background: url(https://www.apple.com/v/home/ag/images/promos/ipad-mini/promo_ipad_mini__spq4zjcuuaie_large.jpg)no-repeat center/cover;
+}
+.ipad_mini{
+    width: 400px;
+    position: absolute;
+    top: -95px;
+    left: 200px;
+    z-index: 1;
+    background-color: transparent;
+}
+.ipad_p{
+    padding-top: 150px;
+    padding-left: 32%;
+}
+.pro{
+    padding-left: 34%;
+}
+.card{
+    background: url(https://www.apple.com/v/home/ag/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg) no-repeat center/cover;
+    height: 650px;
+    width: 49.5%;
+    text-align: center;
+    margin-top: 15px;
+}
+.card>h2{
+    padding-top: 60px;
+}
+.appletv{
+    height: 650px;
+    width: 49.5%;
+    background: url(https://www.apple.com/v/home/ag/images/promos/tv-plus-charlie-brown-halloween/tile_charliebrown__eolk1igxqpw2_large.jpg) no-repeat center/cover;
+    margin-top: 15px;
+    margin-left: 1%;
+    text-align: center;
+}
+.hello{
+    line-height: 1;
+    padding-top: 350px;
+}
+.hello p{
+    font-family: 'Fruktur', cursive;
+}
+.first{
+    font-size: 35px;
+    font-weight: 700;
+}
+.second{
+    font-size: 50px;
+    font-weight: 900;
+
+}
+.third{
+    font-size: 40px;
+    font-weight: 800;
+}
+.aa{
+    margin-top: 30px;
+}
+.dtream{
+    color: black;
+    text-decoration: none;
+}
+.aa:hover{
+    text-decoration: underline;
+}
+footer{
+    margin-top: 20px;
+    background-color:rgb(245,245,247);
+}
+.desc li{
+    font-size: 15px;
+    margin: 20px 0px;
+    color: gray;
+}
+.cont{
+    width: 70%;
+    margin: auto;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(210,210,215);
+}
+.list{
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_p{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(62,62,64);
+}
+.list_itemmm{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.aaaa{
+    font-size: 15px;
+    color: rgb(100,100,103);
+    text-decoration: none;
+    line-height: 2;
+}
+.aaaa:hover{
+    text-decoration: underline;
+}
+.foot{
+    background-color: rgb(245,245,247);
+    height: 90px;
+    width: 100%;
+}
+.foot p{
+    font-size: 15px;
+    color: rgb(100,100,103);
+
+}
+.foot p a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.foot p a:hover{
+    text-decoration: underline;
+}
+.space{
+    height: 400px;
+}
